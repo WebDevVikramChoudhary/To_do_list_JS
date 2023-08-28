@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <form>
-      <input type="text" id="input_field" placeholder="Your Task" />
-      <input type="submit" />
+    <div class="container">
+      <form>
+        <input type="text" id="input_field" placeholder="Your Task" required />
+        <input type="submit" />
 
-      <div id="container">
-        <ol id="task_list"></ol>
-      </div>
-    </form>
+        <div id="task_box">
+          <ol id="task_list"></ol>
+        </div>
+      </form>
+    </div>
+    <footer>Click On The Task To Telete the Task</footer>
   </body>
   <script src="./app.js"></script>
 </html>
